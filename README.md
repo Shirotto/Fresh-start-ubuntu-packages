@@ -1,5 +1,5 @@
 ## Fresh Start
-Script for a fresh start on ubuntu, with some package that help in the initial stage of installation.
+Script for a fresh start on ubuntu, with some packages that help in the initial stage of installation.
 
 <!--
 **Shirotto/Shirotto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
