@@ -1,17 +1,18 @@
-## Fresh Start
-Script for a fresh start on ubuntu, with some packages that help in the initial stage of installation.
+# Fresh Start Ubuntu
 
-<!--
-**Shirotto/Shirotto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A small Bash script I run on a fresh Ubuntu install. It updates the system and installs the packages I always end up needing.
 
-Here are some ideas to get you started:
+## What it installs
+- **Apps:** VLC, GIMP, GParted, Synaptic
+- **Codecs:** ubuntu-restricted-extras
+- **Backups:** Timeshift
+- **Performance:** Preload
+- **Laptop battery:** TLP
+- **Cleanup:** BleachBit
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Usage
+```bash
+chmod +x "Fresh Start Ubuntu.sh"
+./"Fresh Start Ubuntu.sh"
+```
+It uses `sudo apt`, so it will ask for your password. Reboot when it finishes.
